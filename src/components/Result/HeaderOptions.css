@@ -1,0 +1,11 @@
+.headerOptions {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.headerOptions p {
+  margin-left: 0.4rem;
+  font-size: 16px;
+  font-weight: bold;
+}

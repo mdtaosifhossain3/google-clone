@@ -1,0 +1,32 @@
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  font-size: 24px;
+  max-width: 600px;
+  width: 100%;
+  margin: 2.5rem auto;
+}
+
+.inputBar {
+  width: 100%;
+  background-color: #e4e4e4;
+  display: flex;
+  padding: 0.8rem 1.2rem;
+  border-radius: 25px;
+}
+
+input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 18px;
+  padding-left: 14px;
+  columns: #333;
+}
+
+form button {
+  display: none;
+}

@@ -1,0 +1,22 @@
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+  background-color: whitesmoke;
+  height: 600px;
+  width: 300px;
+  margin-top: 0.1rem;
+  margin-left: -2.1rem;
+  border-radius: 15px;
+}
+
+.visible > .headerOptions {
+  padding-left: 1rem;
+  cursor: pointer;
+}
+
+.visible > .headerOptions:hover {
+  background-color: wheat;
+}

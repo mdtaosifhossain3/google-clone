@@ -1,0 +1,143 @@
+.header {
+  display: flex;
+  border-bottom: 1px solid #e4e4e4;
+  height: 155px;
+}
+
+.header img {
+  object-fit: contain;
+  height: 40px;
+  margin: 2rem 1.8rem;
+}
+
+.searchBar {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+}
+
+.searchBar > form {
+  max-width: none;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.searchBar > form > .inputBar {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: white;
+  width: 100%;
+}
+
+.other {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  margin-right: auto;
+  margin-top: -3rem;
+}
+
+.other * {
+  margin-right: 1.5rem;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+}
+
+.links * {
+  margin-left: 1rem;
+}
+
+.searchPage__result {
+  max-width: 1150px;
+  width: 100%;
+  margin: auto;
+  padding: 0 2rem;
+}
+
+.searchPage__result__url {
+  margin: 0;
+}
+
+.searchPage__result__about {
+  opacity: 0.6;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.searchPage__result__title {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 0;
+  padding-top: 4px;
+}
+
+.searchPage__result__title a {
+  text-decoration: none;
+}
+
+.searchPage__result__snippet {
+  font-size: 16px;
+  max-width: 800px;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 2rem;
+}
+
+.hamburger {
+  display: none;
+}
+
+@media (max-width: 980px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+  }
+
+  .header img {
+    object-fit: contain;
+    margin-top: 1.8rem;
+    margin-bottom: 0;
+    height: 50px;
+  }
+
+  .searchBar {
+    width: 100%;
+    margin: 2rem auto;
+  }
+
+  .searchBar > form {
+    margin: 0 auto;
+  }
+
+  .searchBar > form > .inputBar {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: white;
+    width: 100%;
+    margin: 1rem;
+  }
+
+  .links {
+    display: none;
+  }
+
+  .other {
+    display: none;
+  }
+
+  .searchPage__result {
+    margin-top: 2rem;
+  }
+  .hamburger {
+    display: block;
+    position: absolute;
+    left: 2rem;
+    top: 2rem;
+    z-index: 999;
+  }
+}
